@@ -1,0 +1,17 @@
+port: "8080"
+update_path: /Users/s.zapf/dev/www/mc/build/paper
+gin_mode: debug
+servers:
+    - name: paper
+      description: Server for plugin use. The main world is located here.
+    - name: vanilla
+      description: Vanilla Server for adventure maps and more.
+users:
+    - username: admin
+      api_key: 03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4
+    - username: testuser
+      api_key: bfaccba3257e5daf7ee907247fd62d08093ff656c8694266d847b4353ea58c7d
+    - username: testuser
+      api_key: 130cea72bf083716ca52e4c2f5c64e4e60957722e64f863a01ca4d22759463c6
+    - username: Testuser
+      api_key: a75a26c0a4d9229b98ace141d8f431996fc7f8a666e808d4d393458c388e5215
